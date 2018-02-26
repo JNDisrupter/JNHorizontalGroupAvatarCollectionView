@@ -1,0 +1,28 @@
+{
+  "name": "JNHorizontalGroupAvatarCollectionView",
+  "version": "0.1.0",
+  "summary": "Horizontal group avatar collection view.",
+  "description": "Horizontal group avatar collection view description.",
+  "homepage": "https://github.com/ali-hamad",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ali.hamad@yahoo.com": "ali.hamad@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/ali-hamad/JNHorizontalGroupAvatarCollectionView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JNHorizontalGroupAvatarCollectionView/**/*.swift",
+  "resources": "JNHorizontalGroupAvatarCollectionView/**/*.{png,pdf,jpeg,jpg,storyboard,xib,xcassets,ttf}",
+  "dependencies": {
+    "JNGroupAvatarImageView": [
+
+    ]
+  }
+}

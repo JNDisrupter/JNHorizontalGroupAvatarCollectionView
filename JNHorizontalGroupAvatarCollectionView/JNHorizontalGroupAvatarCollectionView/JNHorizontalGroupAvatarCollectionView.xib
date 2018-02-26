@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JNHorizontalGroupAvatarCollectionView" customModule="JNHorizontalGroupAvatarCollectionView" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="tgQ-03-e4y" id="gEz-OV-2LM"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="VZ3-Rn-FHU">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xt2-ch-f3s">
+                    <rect key="frame" x="0.0" y="0.0" width="441" height="50"/>
+                    <subviews>
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vto-NQ-xWu">
+                            <rect key="frame" x="12" y="17" width="16" height="16"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="16" id="TDD-JE-n3e"/>
+                                <constraint firstAttribute="height" constant="16" id="m9d-MI-oJZ"/>
+                            </constraints>
+                            <state key="normal" image="Close"/>
+                            <connections>
+                                <action selector="didClickClear:" destination="-1" eventType="touchUpInside" id="bFN-Rh-fSM"/>
+                            </connections>
+                        </button>
+                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tgQ-03-e4y">
+                            <rect key="frame" x="58" y="9" width="367" height="32.5"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MdL-pi-9e3">
+                                <size key="itemSize" width="50" height="50"/>
+                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </collectionViewFlowLayout>
+                        </collectionView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="Vto-NQ-xWu" firstAttribute="leading" secondItem="xt2-ch-f3s" secondAttribute="leading" constant="12" id="80W-cY-prj"/>
+                        <constraint firstItem="tgQ-03-e4y" firstAttribute="centerY" secondItem="xt2-ch-f3s" secondAttribute="centerY" id="Ibf-Yn-vB5"/>
+                        <constraint firstItem="Vto-NQ-xWu" firstAttribute="centerY" secondItem="xt2-ch-f3s" secondAttribute="centerY" id="ToP-l5-tZr"/>
+                        <constraint firstAttribute="trailing" secondItem="tgQ-03-e4y" secondAttribute="trailing" constant="16" id="U0V-DP-jMQ"/>
+                        <constraint firstItem="tgQ-03-e4y" firstAttribute="height" secondItem="xt2-ch-f3s" secondAttribute="height" multiplier="0.65" id="j6H-Yn-EOP"/>
+                        <constraint firstItem="tgQ-03-e4y" firstAttribute="leading" secondItem="Vto-NQ-xWu" secondAttribute="trailing" constant="30" id="p9R-kB-uZS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Oqj-QA-D9m" firstAttribute="trailing" secondItem="xt2-ch-f3s" secondAttribute="trailing" id="6Hb-k6-ZDB"/>
+                <constraint firstItem="xt2-ch-f3s" firstAttribute="leading" secondItem="Oqj-QA-D9m" secondAttribute="leading" id="Pnl-QP-zAc"/>
+                <constraint firstItem="xt2-ch-f3s" firstAttribute="top" secondItem="Oqj-QA-D9m" secondAttribute="top" id="S4X-Wh-2fG"/>
+                <constraint firstItem="Oqj-QA-D9m" firstAttribute="bottom" secondItem="xt2-ch-f3s" secondAttribute="bottom" id="o7r-fa-zht"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Oqj-QA-D9m"/>
+            <point key="canvasLocation" x="67.5" y="199.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Close" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module JNHorizontalGroupAvatarCollectionView {
+  umbrella header "JNHorizontalGroupAvatarCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

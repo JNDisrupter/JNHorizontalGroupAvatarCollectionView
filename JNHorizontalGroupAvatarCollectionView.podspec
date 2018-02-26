@@ -1,42 +1,14 @@
-#
-# Be sure to run `pod lib lint JNHorizontalGroupAvatarCollectionView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'JNHorizontalGroupAvatarCollectionView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JNHorizontalGroupAvatarCollectionView.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/ali.hamad@yahoo.com/JNHorizontalGroupAvatarCollectionView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.version          = '1.0.0'
+  s.summary          = 'Horizontal group avatar collection view.'
+  s.description      = 'Horizontal group avatar collection view description.'
+  s.homepage         = 'https://github.com/JNDisrupter'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ali.hamad@yahoo.com' => 'ali.hamad@yahoo.com' }
-  s.source           = { :git => 'https://github.com/ali.hamad@yahoo.com/JNHorizontalGroupAvatarCollectionView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'JNHorizontalGroupAvatarCollectionView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JNHorizontalGroupAvatarCollectionView' => ['JNHorizontalGroupAvatarCollectionView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.authors          = { "Jayel Zaghmoutt" => "eng.jayel.z@gmail.com", "Mohammad Nabulsi" => "mohammad.s.nabulsi@gmail.com", "Ali Hamad" => "ali.hamad@yahoo.com" }
+  s.source           = { :git => 'https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '9.0'
+  s.source_files     = 'JNHorizontalGroupAvatarCollectionView/**/*.swift'
+  s.resources        = 'JNHorizontalGroupAvatarCollectionView/**/*.{png,pdf,jpeg,jpg,storyboard,xib,xcassets,ttf}'
+  s.dependency 'JNGroupAvatarImageView'
 end

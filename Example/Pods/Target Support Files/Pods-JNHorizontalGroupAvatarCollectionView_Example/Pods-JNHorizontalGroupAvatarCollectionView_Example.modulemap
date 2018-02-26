@@ -1,0 +1,6 @@
+framework module Pods_JNHorizontalGroupAvatarCollectionView_Example {
+  umbrella header "Pods-JNHorizontalGroupAvatarCollectionView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

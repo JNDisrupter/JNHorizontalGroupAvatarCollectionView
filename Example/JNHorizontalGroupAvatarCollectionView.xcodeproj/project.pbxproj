@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		13B337ECB1CBE4DF5D962215 /* Pods_JNHorizontalGroupAvatarCollectionView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBCA8D08664134488C2FD75 /* Pods_JNHorizontalGroupAvatarCollectionView_Example.framework */; };
-		594CFB42F96A923258AD56E1 /* Pods_JNHorizontalGroupAvatarCollectionView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8819A6AFDD36917C51C05346 /* Pods_JNHorizontalGroupAvatarCollectionView_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C23007532042C9DD00E602C0 /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23007522042C9DD00E602C0 /* SelectionTableViewCell.swift */; };
+		C23007552042CDC900E602C0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23007542042CDC900E602C0 /* User.swift */; };
+		C25E45A12044598C001E077C /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E45A02044598C001E077C /* Group.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1ACEFD17A61600D482B0D94D /* JNHorizontalGroupAvatarCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JNHorizontalGroupAvatarCollectionView.podspec; path = ../JNHorizontalGroupAvatarCollectionView.podspec; sourceTree = "<group>"; };
-		3AE431F2F53E0BF007A410A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1ACEFD17A61600D482B0D94D /* JNHorizontalGroupAvatarCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JNHorizontalGroupAvatarCollectionView.podspec; path = ../JNHorizontalGroupAvatarCollectionView.podspec; sourceTree = "<group>"; };
+		3AE431F2F53E0BF007A410A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3FBCA8D08664134488C2FD75 /* Pods_JNHorizontalGroupAvatarCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JNHorizontalGroupAvatarCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41167D30D901A75C088FDB73 /* Pods-JNHorizontalGroupAvatarCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNHorizontalGroupAvatarCollectionView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Tests/Pods-JNHorizontalGroupAvatarCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JNHorizontalGroupAvatarCollectionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNHorizontalGroupAvatarCollectionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +40,13 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* JNHorizontalGroupAvatarCollectionView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNHorizontalGroupAvatarCollectionView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		638CF2A2465D2C3EBB04E7A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		638CF2A2465D2C3EBB04E7A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		83B4449AFF358D96768506A0 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8819A6AFDD36917C51C05346 /* Pods_JNHorizontalGroupAvatarCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JNHorizontalGroupAvatarCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A213FD985EE96B333871F9A4 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D0C2A32C16C19FED565AA00B /* Pods-JNHorizontalGroupAvatarCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNHorizontalGroupAvatarCollectionView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Tests/Pods-JNHorizontalGroupAvatarCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C23007522042C9DD00E602C0 /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
+		C23007542042CDC900E602C0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C25E45A02044598C001E077C /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				594CFB42F96A923258AD56E1 /* Pods_JNHorizontalGroupAvatarCollectionView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +73,6 @@
 			children = (
 				83B4449AFF358D96768506A0 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig */,
 				A213FD985EE96B333871F9A4 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig */,
-				D0C2A32C16C19FED565AA00B /* Pods-JNHorizontalGroupAvatarCollectionView_Tests.debug.xcconfig */,
-				41167D30D901A75C088FDB73 /* Pods-JNHorizontalGroupAvatarCollectionView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -94,7 +91,6 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for JNHorizontalGroupAvatarCollectionView */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				299B36AAA6C6D041C494D9D3 /* Pods */,
 				590A38DC9C1FCC4DF99D8040 /* Frameworks */,
@@ -115,6 +111,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				C23007542042CDC900E602C0 /* User.swift */,
+				C25E45A02044598C001E077C /* Group.swift */,
+				C23007522042C9DD00E602C0 /* SelectionTableViewCell.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -128,23 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,12 +168,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JNHorizontalGroupAvatarCollectionView_Tests" */;
 			buildPhases = (
-				90204238D4BCBC9682B1F59E /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				0A44508F577ED7285C5EEDDD /* [CP] Embed Pods Frameworks */,
-				70186D3924BCC4E9CBED1804 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,54 +258,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0A44508F577ED7285C5EEDDD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Tests/Pods-JNHorizontalGroupAvatarCollectionView_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		70186D3924BCC4E9CBED1804 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Tests/Pods-JNHorizontalGroupAvatarCollectionView_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90204238D4BCBC9682B1F59E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JNHorizontalGroupAvatarCollectionView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CDABC44095A531DAF967A0EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,11 +283,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JNAvatarWithInitials/JNAvatarWithInitials.framework",
+				"${BUILT_PRODUCTS_DIR}/JNGroupAvatarImageView/JNGroupAvatarImageView.framework",
 				"${BUILT_PRODUCTS_DIR}/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JNAvatarWithInitials.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JNGroupAvatarImageView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JNHorizontalGroupAvatarCollectionView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,8 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C23007552042CDC900E602C0 /* User.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				C25E45A12044598C001E077C /* Group.swift in Sources */,
+				C23007532042C9DD00E602C0 /* SelectionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +483,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0C2A32C16C19FED565AA00B /* Pods-JNHorizontalGroupAvatarCollectionView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -565,7 +503,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41167D30D901A75C088FDB73 /* Pods-JNHorizontalGroupAvatarCollectionView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

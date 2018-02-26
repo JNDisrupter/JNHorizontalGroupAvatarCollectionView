@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AvatarCollectionViewCell" id="iJP-YM-l2h" customClass="AvatarCollectionViewCell" customModule="JNHorizontalGroupAvatarCollectionView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uo2-fZ-Osc" customClass="JNGroupAvatarImageView" customModule="JNGroupAvatarImageView">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="uo2-fZ-Osc" firstAttribute="trailing" secondItem="wvd-tB-2Kw" secondAttribute="trailing" id="Kyg-cQ-Fsl"/>
+                <constraint firstItem="wvd-tB-2Kw" firstAttribute="leading" secondItem="uo2-fZ-Osc" secondAttribute="leading" id="hxy-OZ-Z5z"/>
+                <constraint firstItem="wvd-tB-2Kw" firstAttribute="top" secondItem="uo2-fZ-Osc" secondAttribute="top" id="tds-GD-hOz"/>
+                <constraint firstItem="uo2-fZ-Osc" firstAttribute="bottom" secondItem="wvd-tB-2Kw" secondAttribute="bottom" id="w7q-2p-51b"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="wvd-tB-2Kw"/>
+            <connections>
+                <outlet property="avatarImageView" destination="uo2-fZ-Osc" id="6AY-4I-q4l"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,11 +1,6 @@
 use_frameworks!
 
 target 'JNHorizontalGroupAvatarCollectionView_Example' do
-  pod 'JNHorizontalGroupAvatarCollectionView', :path => '../'
-
-  target 'JNHorizontalGroupAvatarCollectionView_Tests' do
-    inherit! :search_paths
-
-    
-  end
+    pod 'JNHorizontalGroupAvatarCollectionView' , :git => 'https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView.git'
+  
 end

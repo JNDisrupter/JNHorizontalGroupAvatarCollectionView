@@ -1,0 +1,6 @@
+framework module JNGroupAvatarImageView {
+  umbrella header "JNGroupAvatarImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
