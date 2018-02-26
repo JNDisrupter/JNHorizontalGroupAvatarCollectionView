@@ -7,13 +7,12 @@
 **JNHorizontalGroupAvatarCollectionView** is used to show a collection of avatar images with the option to show initials, it shows as much as the phone screen can present with a horizontal scrolling to see more.
 
 ## Screenshots
-<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/development/Images/screenshot1.png" width="280"/>
-<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/development/Images/screenshot2.png" width="280"/>
-<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/development/Images/screenshot3.png" width="280"/>
-<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/development/Images/screenshot4.png" width="280"/>
-<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/development/Images/screenshot5.png" width="280"/>
-<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/development/Images/screenshot6.png" width="280"/>
-<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/development/Images/screenshot7.png" width="280"/>
+<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/master/Images/screenshot1.png" width="280"/><img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/master/Images/screenshot2.png" width="280"/>
+<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/master/Images/screenshot3.png" width="280"/>
+<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/master/Images/screenshot4.png" width="280"/>
+<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/master/Images/screenshot5.png" width="280"/>
+<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/master/Images/screenshot6.png" width="280"/>
+<img src="https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView/raw/master/Images/screenshot7.png" width="280"/>
 
 ## Example
 
@@ -70,7 +69,6 @@ Number of items
 */
 func horizontalGroupAvatarCollectionViewNumberOfItems() -> Int
 
-/**
 /**
 Data for item at index
 - Parameter index: The item index
