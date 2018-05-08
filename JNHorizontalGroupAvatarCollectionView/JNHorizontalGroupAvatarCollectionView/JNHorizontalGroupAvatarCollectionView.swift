@@ -73,20 +73,6 @@ open class JNHorizontalGroupAvatarCollectionView: UIView, UICollectionViewDataSo
      */
     override open func awakeFromNib() {
         super.awakeFromNib()
-        
-        // Set collection data source and delegate
-        self.collectionView.dataSource = self
-        self.collectionView.showsHorizontalScrollIndicator = false
-        
-        // Register cell
-        let bundle = Bundle(for: AvatarCollectionViewCell.self)
-        let nib = UINib(nibName: "AvatarCollectionViewCell", bundle: bundle)
-        self.collectionView.register(nib, forCellWithReuseIdentifier: AvatarCollectionViewCell.getReuseIdentifier())
-        
-        // Set collection ayout
-        let layout = AvatarsCollectionViewFlowLayout()
-        layout.cellPadding = self.cellPadding
-        self.collectionView.collectionViewLayout = layout
     }
     
     /**
@@ -110,6 +96,7 @@ open class JNHorizontalGroupAvatarCollectionView: UIView, UICollectionViewDataSo
      */
     private func initView() {
         
+        // Bundle
         let bundle = Bundle(for: JNHorizontalGroupAvatarCollectionView.self)
         let nib = UINib(nibName: "JNHorizontalGroupAvatarCollectionView", bundle: bundle)
         
@@ -124,6 +111,18 @@ open class JNHorizontalGroupAvatarCollectionView: UIView, UICollectionViewDataSo
             view.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
             view.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
             view.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        
+            // Set collection data source and delegate
+            self.collectionView.dataSource = self
+            self.collectionView.showsHorizontalScrollIndicator = false
+            
+            // Register cell
+            self.collectionView.register(UINib(nibName: "AvatarCollectionViewCell", bundle: bundle), forCellWithReuseIdentifier: AvatarCollectionViewCell.getReuseIdentifier())
+            
+            // Set collection ayout
+            let layout = AvatarsCollectionViewFlowLayout()
+            layout.cellPadding = self.cellPadding
+            self.collectionView.collectionViewLayout = layout
         }
     }
     
