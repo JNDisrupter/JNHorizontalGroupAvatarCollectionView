@@ -1,27 +1,32 @@
 PODS:
-  - JNAvatarWithInitials (1.1.0):
-    - SDWebImage (~> 4.2.2)
+  - JNAvatarWithInitials (1.1.1):
+    - SDWebImage (~> 4.3.3)
   - JNGroupAvatarImageView (1.2.1):
     - JNAvatarWithInitials (~> 1.1.0)
-  - JNHorizontalGroupAvatarCollectionView (0.1.0):
+  - JNHorizontalGroupAvatarCollectionView (1.0.0):
     - JNGroupAvatarImageView
-  - SDWebImage (4.2.3):
-    - SDWebImage/Core (= 4.2.3)
-  - SDWebImage/Core (4.2.3)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
 
 DEPENDENCIES:
-  - JNHorizontalGroupAvatarCollectionView (from `../`)
+  - JNHorizontalGroupAvatarCollectionView (from `https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView.git`)
 
 EXTERNAL SOURCES:
   JNHorizontalGroupAvatarCollectionView:
-    :path: ../
+    :git: https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView.git
+
+CHECKOUT OPTIONS:
+  JNHorizontalGroupAvatarCollectionView:
+    :commit: a47009c22f304d4699fcfc8783d9e07d62e9afc8
+    :git: https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView.git
 
 SPEC CHECKSUMS:
-  JNAvatarWithInitials: 43bfcf07e4cd445cf49a1dcdcbb7b9a8f5dd816e
+  JNAvatarWithInitials: c0c5f5049d868d4a66dc16e3e9217232977cc9cf
   JNGroupAvatarImageView: 00330c921cecd63d38e772cf4cd7584651da23ca
-  JNHorizontalGroupAvatarCollectionView: 9b9154f264ad73ed0814e9f4e7a064734d2c916a
-  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  JNHorizontalGroupAvatarCollectionView: 238adaeff797b4bddb89a0dba14cb4ca50117ff9
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
 
-PODFILE CHECKSUM: fcbe6721b5e81ef3de2ad8c4ea32a7d0f0e9c73c
+PODFILE CHECKSUM: 1549632fb978e7cf3f26e49c669d260ee0331b15
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.4.0.beta.2
