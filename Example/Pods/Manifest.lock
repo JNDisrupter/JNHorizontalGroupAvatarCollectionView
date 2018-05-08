@@ -3,7 +3,7 @@ PODS:
     - SDWebImage (~> 4.3.3)
   - JNGroupAvatarImageView (1.2.1):
     - JNAvatarWithInitials (~> 1.1.0)
-  - JNHorizontalGroupAvatarCollectionView (1.0.0):
+  - JNHorizontalGroupAvatarCollectionView (1.0.1):
     - JNGroupAvatarImageView
   - SDWebImage (4.3.3):
     - SDWebImage/Core (= 4.3.3)
@@ -18,13 +18,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   JNHorizontalGroupAvatarCollectionView:
-    :commit: a47009c22f304d4699fcfc8783d9e07d62e9afc8
+    :commit: 10db1b46820579cf9e1f69acd412926b16f3aedd
     :git: https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView.git
 
 SPEC CHECKSUMS:
   JNAvatarWithInitials: c0c5f5049d868d4a66dc16e3e9217232977cc9cf
   JNGroupAvatarImageView: 00330c921cecd63d38e772cf4cd7584651da23ca
-  JNHorizontalGroupAvatarCollectionView: 238adaeff797b4bddb89a0dba14cb4ca50117ff9
+  JNHorizontalGroupAvatarCollectionView: add277da9a3fa16973fac94a772c8d541f2ed2ba
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
 
 PODFILE CHECKSUM: 1549632fb978e7cf3f26e49c669d260ee0331b15
