@@ -2,6 +2,5 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'JNHorizontalGroupAvatarCollectionView_Example' do
-    pod 'JNHorizontalGroupAvatarCollectionView' , :git => 'https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView.git'
-  
+    pod 'JNHorizontalGroupAvatarCollectionView', :path => '../'
 end

@@ -153,7 +153,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				E11A334052CA537E94FE09FF /* [CP] Embed Pods Frameworks */,
-				08F9BDFEDFFDFB36F970AFDA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,21 +243,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		08F9BDFEDFFDFB36F970AFDA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CDABC44095A531DAF967A0EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

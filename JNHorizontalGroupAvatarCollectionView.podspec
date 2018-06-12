@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JNHorizontalGroupAvatarCollectionView'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Horizontal group avatar collection view.'
   s.description      = 'Horizontal group avatar collection view description.'
   s.homepage         = 'https://github.com/JNDisrupter'
