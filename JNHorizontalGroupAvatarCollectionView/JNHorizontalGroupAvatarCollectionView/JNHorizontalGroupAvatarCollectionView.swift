@@ -15,7 +15,7 @@ open class JNHorizontalGroupAvatarCollectionView: UIView, UICollectionViewDataSo
     @IBOutlet private weak var collectionView: UICollectionView!
     
     /// Harri custom selection view Delegate
-    public var delegate: JNHorizontalGroupAvatarCollectionViewDelegate?
+    public weak var delegate: JNHorizontalGroupAvatarCollectionViewDelegate?
     
     /// Cell padding
     public var cellPadding: CGFloat = 20
@@ -161,7 +161,7 @@ open class JNHorizontalGroupAvatarCollectionView: UIView, UICollectionViewDataSo
 }
 
 /// JN horizontal group avatar collection view Delegate
-public protocol JNHorizontalGroupAvatarCollectionViewDelegate {
+public protocol JNHorizontalGroupAvatarCollectionViewDelegate: NSObjectProtocol {
     
     /**
      Number of items
