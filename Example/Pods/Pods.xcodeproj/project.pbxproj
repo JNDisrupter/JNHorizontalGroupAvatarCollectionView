@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007BD7979B569397DE8E57E03768070C /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F6A5684CA980B9F3E4567AF74AF191 /* SDWebImage.framework */; };
 		027EEAF732D7B964F62E4D07934B5A0C /* JNAvatarWithInitials.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F7DBCF9621AFD0BF2F79D33D47C792 /* JNAvatarWithInitials.xib */; };
 		0D320E837251066B660BD30E9D202C0A /* JNAvatarWithInitials-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2081129FACA27D768486C486CB07E0FE /* JNAvatarWithInitials-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E7D892AADF5EADCAD4FBFD9E42B0C1E /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F6529FFE8B58E0B637ABC72A9F07A7 /* UIImage+GIF.m */; };
@@ -14,12 +15,11 @@
 		13D1CA219FBAFE9C3EA52DF7ACD13AF1 /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D351A776E165DF8DE9FD3C438BC04DFE /* NSImage+WebCache.m */; };
 		14707087C505CA3260821662009FCA23 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E573396973B3B6B6ED290AC5E9DAF7E9 /* UIImageView+WebCache.m */; };
 		1C27B4060531E684F96BD4AE2166A12C /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F45DDBDB87B8FF6C983221692736F9 /* SDImageCache.m */; };
+		25C316C3D4CAD8A380EF233AF58B719F /* JNAvatarWithInitials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D40D3C6438C07D874320E31C4698E9 /* JNAvatarWithInitials.framework */; };
 		281F37FC910E877CF3759D62746607A3 /* SDWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6EAAFAADB8748DC73F76AA93C71D48 /* SDWebImageFrame.m */; };
-		2909C05DFD6C01DD5E373944D4D994B5 /* JNAvatarWithInitials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D40D3C6438C07D874320E31C4698E9 /* JNAvatarWithInitials.framework */; };
 		2FB0026A87EB43914EFD20B64592E1B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878615716BFE1B4362CBB80535DA5F37 /* Foundation.framework */; };
 		31F3EFCDDCEA2F5DE7395904A5BDB6F0 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BAA8062DBD4685A5ECD43E5CB6C7C1 /* NSData+ImageContentType.m */; };
 		3526EFDD612CDA145233F328B75E0236 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCB97B88EC8BEB006168A5628736A0A /* ImageIO.framework */; };
-		372F41B2A25E339F0464FD9D78100B6C /* JNGroupAvatarImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761A8E794ACDC3B18EAE45CB0C89FFE0 /* JNGroupAvatarImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AEA1D01DD9F2E56A2150638E69065D6 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8C3A820EBE7F6D627D515C3FBB98EC /* SDWebImageCompat.m */; };
 		3B28C2B4F0BCB9BA274E0976D46CE3D7 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D050BF31BFD76F546A420DC84E7E567 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		405901D9D0D6D62DD121AE2A5811C05C /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = A65598289A8858F073B029BCE1F4295E /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +28,7 @@
 		4306C6E1045A531DFE6111B077CFA18C /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3F73925249560AD922562446F7B810 /* UIImage+MultiFormat.m */; };
 		45BBA4E285A5179FCE2C272BA192A402 /* SDWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 453DDA69E53D5A6B2CB54C411B8F62B4 /* SDWebImageCodersManager.m */; };
 		4B08E29AF7F0FA2A38F7383A120B3D2B /* SDWebImageImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A31735E27F67C0C246AE4ABB81A7392 /* SDWebImageImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C3323E702B56B17C55798AAC9833014 /* JNGroupAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64E4BD83A87C6BC5880F0093E24A20 /* JNGroupAvatarImageView.swift */; };
 		4D209AF7AF61306B67BC2EA8C6E3B50A /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B6EC25DE163B2FB4BC61C4E62949341 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DF3A616B9FA7902D33DB0E4A62C5B65 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6C730F9F4E438AA13A5106996EA6FD /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		507BE7D7FB67CC9C258C84EA2FD1E104 /* SDWebImageImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 103F2128CAB1971DE58C8FFAFFC98E77 /* SDWebImageImageIOCoder.m */; };
@@ -36,10 +37,9 @@
 		56C1C6EED183022EB568C4880E7D1085 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = EA07969032986092B348A39858CEC6A1 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56FD0EE018ACAAAF9C76082C50BF0433 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = E3FD2D0C8A62B8906E3F0AA2C6BC7AFD /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A9315F27921151F1EBF16952DEC9E32 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D6D1F57E087249B386AEFB2A1D42E2E /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B90F3143E0CC4B080B6461FC1B3823D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878615716BFE1B4362CBB80535DA5F37 /* Foundation.framework */; };
-		627FF40B847DFD14B8FC8D96E1B205CF /* JNGroupAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64E4BD83A87C6BC5880F0093E24A20 /* JNGroupAvatarImageView.swift */; };
 		6A119AE59C64AD31FBB2F7DA17621700 /* SDAnimatedImageRep.h in Headers */ = {isa = PBXBuildFile; fileRef = D9B8DAE9DC386C23286E4C5CE5AD5DEB /* SDAnimatedImageRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6B40E75587BCFA250F0BB26518B29D81 /* SDWebImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 397E5052F1852954AE44BF10BFEAA315 /* SDWebImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF8B11888D431D76860231136AC4873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878615716BFE1B4362CBB80535DA5F37 /* Foundation.framework */; };
 		6DE4C2A9A91BD8F60C72C82C1B52863B /* SDWebImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 03B5740C9F24DB6567B2F692D65F47A2 /* SDWebImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E24FBA218854844CAEABCA69167880D /* JNAvatarWithInitials-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D05B901C1F64C52F71BE094D68E80819 /* JNAvatarWithInitials-dummy.m */; };
 		7439F54CA0BC0E49218C62708C3C3E95 /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD475C436E468C2AC2D346F64158255A /* AvatarCollectionViewCell.swift */; };
@@ -54,15 +54,16 @@
 		930C5608290A3E0F20AE5A3938C5B338 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F6A5684CA980B9F3E4567AF74AF191 /* SDWebImage.framework */; };
 		940FF64515A5ABCFFBFF2A7137D9C372 /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 75FEC78671EC2116551EC94A79BE3326 /* SDWebImageCoderHelper.m */; };
 		96B26AEA020544E68B8A1070F93B150B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878615716BFE1B4362CBB80535DA5F37 /* Foundation.framework */; };
+		9C186E7C8037A3338316C255369F8FB9 /* JNGroupAvatarImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B3994B7969074183D3875ECA45AF9 /* JNGroupAvatarImageView-dummy.m */; };
 		A980FE95F79DED8959BE00D98CC8A40A /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2288D7E3DEED2EB3606BE64B72646E /* UIButton+WebCache.m */; };
 		B251B25FA3F81DD27601888F4A948A22 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 526A90154BE5E5268AC2B422F764EEC1 /* UIView+WebCacheOperation.m */; };
-		B2D6A33216C34AF3018D8C329DDC8663 /* JNGroupAvatarImageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8B3994B7969074183D3875ECA45AF9 /* JNGroupAvatarImageView-dummy.m */; };
 		B379F4898CC81864FA59FF66D6E8AD0D /* JNAvatarWithInitials.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D40D3C6438C07D874320E31C4698E9 /* JNAvatarWithInitials.framework */; };
 		B4B426D254A430DCF66A02C66F5E3C4E /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC23441FD74BBF95F6A41F1373FAB31 /* UIImageView+HighlightedWebCache.m */; };
 		B629F8A9B9D2E302FE97C33526782523 /* SDAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF7B3703E1549BAC7F271329011A25C /* SDAnimatedImageRep.m */; };
 		B75D26AE9785DD85AA3D0A4D8DDB467A /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A0118A7D6DD7CAAC90FB6A396EA320 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8AE9E64BCF3F27D25550917382AFC1E /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F66D484C1024DF8AB7EF4F3DCF6F3AF /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9A5AA515C43E618E26379A117A55759 /* JNHorizontalGroupAvatarCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5E143CB0F54FA96B46A6D69D7A187 /* JNHorizontalGroupAvatarCollectionView.swift */; };
+		BCB63CE51688A6F5312BA4EF9D23AE85 /* JNGroupAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D73346F8405F59746A11D412F3C9A0 /* JNGroupAvatar.swift */; };
 		BD496F00B5692C39EA5EBBBDDB837182 /* SDWebImageTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = E40645524E3939CC31531C8919088AF5 /* SDWebImageTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1E431017C557F795A42973B5500BC30 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FD28F250440A511413582867FC9BA217 /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8C6545EDED05395C016AAEBB82AC486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A25D19AC83E59706D140D3329FB0F76 /* Assets.xcassets */; };
@@ -72,8 +73,7 @@
 		D2DF06EC9C5D7D63EA1CEA15E6C2309A /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 665CDB280D5EDC1CB1BCD68D3641248C /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4E1A1D923E369F1722818CDCBC335C4 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D7B8CF15C7F7AD4B54A5CD8A4BC08F /* SDImageCacheConfig.m */; };
 		D898F02F3075F30D37F338B643C7150E /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C42621C4C77BE0AEF59A658C88AB19 /* UIView+WebCache.m */; };
-		D8B420BA55A1E5686820FAE75A36D887 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263B27C526A15D1A30F338E723DFD12C /* UIKit.framework */; };
-		D94BC33908BDFE22BBE62557E3997C82 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3F6A5684CA980B9F3E4567AF74AF191 /* SDWebImage.framework */; };
+		DB2C5D5B1D6923B248ED3136CF32A0F8 /* JNGroupAvatarImageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761A8E794ACDC3B18EAE45CB0C89FFE0 /* JNGroupAvatarImageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2100E455D34185FDE5AC26C3E6236AF /* AvatarsCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CD650B7706DC6D78C95A31FA4DAEFE /* AvatarsCollectionViewFlowLayout.swift */; };
 		E2E299794D642DFD9B715FD14AF71FB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 263B27C526A15D1A30F338E723DFD12C /* UIKit.framework */; };
 		E55D5165F6265C21B732421508D87DB8 /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDCF21D25CD9F17587508F01A496F84 /* UIImage+ForceDecode.m */; };
@@ -86,7 +86,6 @@
 		F03D5C454D293EA71BCBD1857ADC9C88 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEA941F6E6D3FCC50F6A331FCFBC09A /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0931680C4A978CF1645112ECDE49423 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878615716BFE1B4362CBB80535DA5F37 /* Foundation.framework */; };
 		F1D42E9BCD66A3DDECC148CECCF6626E /* Pods-JNHorizontalGroupAvatarCollectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A85D25210B6F64A7595FA4D39CF225 /* Pods-JNHorizontalGroupAvatarCollectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F22DA40FD077D71181F97716F55AD7D9 /* JNGroupAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D73346F8405F59746A11D412F3C9A0 /* JNGroupAvatar.swift */; };
 		F6A5A6005E6E068DC704A72E5E4BE498 /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C360E44B807E1B6CDA0F37D5C4173F9F /* NSButton+WebCache.m */; };
 		F700E77BBB07EC81DA11322B4F9EE417 /* SDWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDB8B55429A1F33B1926C40B1912927 /* SDWebImageGIFCoder.m */; };
 		F73C3FC9006FAFEC06670DBE71E8FF99 /* JNHorizontalGroupAvatarCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F388099B243873813CFCB4EE6CE8908E /* JNHorizontalGroupAvatarCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -97,13 +96,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E6003F62EF7CFDD4D0B207417C77BD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60AE2ED222C7554C112950D1D0185F00;
-			remoteInfo = SDWebImage;
-		};
 		14C64CCC9D92F7C52BA72F74640ED332 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -111,12 +103,12 @@
 			remoteGlobalIDString = 60AE2ED222C7554C112950D1D0185F00;
 			remoteInfo = SDWebImage;
 		};
-		44884B85B2389E25FFC6923BE735A622 /* PBXContainerItemProxy */ = {
+		43967AA2059584DEF6F587831D09C00C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 09637682CC61F117A761323EA656F1B8;
-			remoteInfo = JNAvatarWithInitials;
+			remoteGlobalIDString = 60AE2ED222C7554C112950D1D0185F00;
+			remoteInfo = SDWebImage;
 		};
 		49156C89109D994E483E9433761E71B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -143,7 +135,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B6B6EA6BA23235E979543D49FDDA4206;
+			remoteGlobalIDString = 39C2F49BFBEB85CF4CBA36842B766C73;
 			remoteInfo = JNGroupAvatarImageView;
 		};
 		C93173D03DBC291530EDC2AA0AB12F0F /* PBXContainerItemProxy */ = {
@@ -164,8 +156,15 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B6B6EA6BA23235E979543D49FDDA4206;
+			remoteGlobalIDString = 39C2F49BFBEB85CF4CBA36842B766C73;
 			remoteInfo = JNGroupAvatarImageView;
+		};
+		FB65B9AFB9AD3E713B59329BC56B4FC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09637682CC61F117A761323EA656F1B8;
+			remoteInfo = JNAvatarWithInitials;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -302,6 +301,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		25F4BBE9A770A4D8771CFF48A8B4C38E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF8B11888D431D76860231136AC4873 /* Foundation.framework in Frameworks */,
+				25C316C3D4CAD8A380EF233AF58B719F /* JNAvatarWithInitials.framework in Frameworks */,
+				007BD7979B569397DE8E57E03768070C /* SDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3419F09ADEFEF92D4D8DFF5513E6051A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,17 +329,6 @@
 				B379F4898CC81864FA59FF66D6E8AD0D /* JNAvatarWithInitials.framework in Frameworks */,
 				11528AB7F1DFD36F1E26EE83078F93FD /* JNGroupAvatarImageView.framework in Frameworks */,
 				FF68CC2C93FDC8BA02610738BBF9DF5D /* SDWebImage.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FEC33AF7A263CA4474D464D44048A613 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5B90F3143E0CC4B080B6461FC1B3823D /* Foundation.framework in Frameworks */,
-				2909C05DFD6C01DD5E373944D4D994B5 /* JNAvatarWithInitials.framework in Frameworks */,
-				D94BC33908BDFE22BBE62557E3997C82 /* SDWebImage.framework in Frameworks */,
-				D8B420BA55A1E5686820FAE75A36D887 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,14 +662,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		10784BBCA52AE95F79FAB94ACD40E03C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				372F41B2A25E339F0464FD9D78100B6C /* JNGroupAvatarImageView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		24FF9D1394B3B2AE7130322258633356 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -715,6 +705,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A26DE97598ACB7AFC0F0687184EBEFD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2C5D5B1D6923B248ED3136CF32A0F8 /* JNGroupAvatarImageView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BF2571E8AA999C5D93158F628AE6DAD4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -753,6 +751,25 @@
 			productReference = 610316676C0FCA98C61B1DFE681D8DE8 /* JNAvatarWithInitials.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		39C2F49BFBEB85CF4CBA36842B766C73 /* JNGroupAvatarImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BBAA6B6B75392B5E36BA5A13A2A77C /* Build configuration list for PBXNativeTarget "JNGroupAvatarImageView" */;
+			buildPhases = (
+				F17F9BF3E6A1D9AF2CAF9E815C0416CC /* Sources */,
+				25F4BBE9A770A4D8771CFF48A8B4C38E /* Frameworks */,
+				A26DE97598ACB7AFC0F0687184EBEFD2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5E8BCA38DDBEB855271553544BEF868 /* PBXTargetDependency */,
+				EAD50682A9FE66FBB27373B3EA6CEC48 /* PBXTargetDependency */,
+			);
+			name = JNGroupAvatarImageView;
+			productName = JNGroupAvatarImageView;
+			productReference = B1243250569510189D1699E2EF4E68F2 /* JNGroupAvatarImageView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		495575AA6594E1007CFCDBADA3291872 /* Pods-JNHorizontalGroupAvatarCollectionView_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C84B06584B6FF58CA7DFD59BD0A7CA /* Build configuration list for PBXNativeTarget "Pods-JNHorizontalGroupAvatarCollectionView_Example" */;
@@ -789,25 +806,6 @@
 			name = SDWebImage;
 			productName = SDWebImage;
 			productReference = 057F85899DF80E9F8C1E38A8DED50933 /* SDWebImage.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B6B6EA6BA23235E979543D49FDDA4206 /* JNGroupAvatarImageView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5FA67C197DEC2757920B8272DD3B606 /* Build configuration list for PBXNativeTarget "JNGroupAvatarImageView" */;
-			buildPhases = (
-				323AF566AE04FD413849898E68CF9E3F /* Sources */,
-				FEC33AF7A263CA4474D464D44048A613 /* Frameworks */,
-				10784BBCA52AE95F79FAB94ACD40E03C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEF1E4DECDE39FBAD928906CA0C2B6A0 /* PBXTargetDependency */,
-				BC8C5FF7B3E912001868116A42C66B1C /* PBXTargetDependency */,
-			);
-			name = JNGroupAvatarImageView;
-			productName = JNGroupAvatarImageView;
-			productReference = B1243250569510189D1699E2EF4E68F2 /* JNGroupAvatarImageView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F1DA4A4D05BBCF62ED9776DF48F3E2AF /* JNHorizontalGroupAvatarCollectionView */ = {
@@ -853,7 +851,7 @@
 			projectRoot = "";
 			targets = (
 				09637682CC61F117A761323EA656F1B8 /* JNAvatarWithInitials */,
-				B6B6EA6BA23235E979543D49FDDA4206 /* JNGroupAvatarImageView */,
+				39C2F49BFBEB85CF4CBA36842B766C73 /* JNGroupAvatarImageView */,
 				F1DA4A4D05BBCF62ED9776DF48F3E2AF /* JNHorizontalGroupAvatarCollectionView */,
 				495575AA6594E1007CFCDBADA3291872 /* Pods-JNHorizontalGroupAvatarCollectionView_Example */,
 				60AE2ED222C7554C112950D1D0185F00 /* SDWebImage */,
@@ -883,16 +881,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		323AF566AE04FD413849898E68CF9E3F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F22DA40FD077D71181F97716F55AD7D9 /* JNGroupAvatar.swift in Sources */,
-				B2D6A33216C34AF3018D8C329DDC8663 /* JNGroupAvatarImageView-dummy.m in Sources */,
-				627FF40B847DFD14B8FC8D96E1B205CF /* JNGroupAvatarImageView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		48DED77F3612926925B09F8410E8C2DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -955,6 +943,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F17F9BF3E6A1D9AF2CAF9E815C0416CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB63CE51688A6F5312BA4EF9D23AE85 /* JNGroupAvatar.swift in Sources */,
+				9C186E7C8037A3338316C255369F8FB9 /* JNGroupAvatarImageView-dummy.m in Sources */,
+				4C3323E702B56B17C55798AAC9833014 /* JNGroupAvatarImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -982,17 +980,11 @@
 			target = 09637682CC61F117A761323EA656F1B8 /* JNAvatarWithInitials */;
 			targetProxy = AE55568897641E3C8103E684731502E8 /* PBXContainerItemProxy */;
 		};
-		BC8C5FF7B3E912001868116A42C66B1C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SDWebImage;
-			target = 60AE2ED222C7554C112950D1D0185F00 /* SDWebImage */;
-			targetProxy = 0E6003F62EF7CFDD4D0B207417C77BD1 /* PBXContainerItemProxy */;
-		};
-		CEF1E4DECDE39FBAD928906CA0C2B6A0 /* PBXTargetDependency */ = {
+		C5E8BCA38DDBEB855271553544BEF868 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JNAvatarWithInitials;
 			target = 09637682CC61F117A761323EA656F1B8 /* JNAvatarWithInitials */;
-			targetProxy = 44884B85B2389E25FFC6923BE735A622 /* PBXContainerItemProxy */;
+			targetProxy = FB65B9AFB9AD3E713B59329BC56B4FC2 /* PBXContainerItemProxy */;
 		};
 		EA58DF59C5CBCEE6B2267BF36335895D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1003,13 +995,19 @@
 		EAD2803E1BF1562DF1AC29486F9D75DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JNGroupAvatarImageView;
-			target = B6B6EA6BA23235E979543D49FDDA4206 /* JNGroupAvatarImageView */;
+			target = 39C2F49BFBEB85CF4CBA36842B766C73 /* JNGroupAvatarImageView */;
 			targetProxy = B026666731BF242FB6D1EFACFD42A92A /* PBXContainerItemProxy */;
+		};
+		EAD50682A9FE66FBB27373B3EA6CEC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 60AE2ED222C7554C112950D1D0185F00 /* SDWebImage */;
+			targetProxy = 43967AA2059584DEF6F587831D09C00C /* PBXContainerItemProxy */;
 		};
 		F0EC6240B658482B6273F0F3BFFEDD37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JNGroupAvatarImageView;
-			target = B6B6EA6BA23235E979543D49FDDA4206 /* JNGroupAvatarImageView */;
+			target = 39C2F49BFBEB85CF4CBA36842B766C73 /* JNGroupAvatarImageView */;
 			targetProxy = D448A9A95F2660DE6B328C34B7D83732 /* PBXContainerItemProxy */;
 		};
 		F7AA7E4A3D3A8659B70D58B16EA6C51A /* PBXTargetDependency */ = {
@@ -1021,9 +1019,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		069D97630D769F73C5E5337DC7B34949 /* Debug */ = {
+		13E6F1A2E7FBC58DA5418FA8E0146AA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E182978EBE5D9DE2CF24638CBFAE81FD /* JNAvatarWithInitials.xcconfig */;
+			baseConfigurationReference = 0E19858AE840D940EA73D15F8F0E1A3D /* JNHorizontalGroupAvatarCollectionView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1034,19 +1032,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JNAvatarWithInitials/JNAvatarWithInitials-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JNAvatarWithInitials/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JNHorizontalGroupAvatarCollectionView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JNAvatarWithInitials/JNAvatarWithInitials.modulemap";
-				PRODUCT_MODULE_NAME = JNAvatarWithInitials;
-				PRODUCT_NAME = JNAvatarWithInitials;
+				MODULEMAP_FILE = "Target Support Files/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = JNHorizontalGroupAvatarCollectionView;
+				PRODUCT_NAME = JNHorizontalGroupAvatarCollectionView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1116,9 +1114,9 @@
 			};
 			name = Debug;
 		};
-		7C39917131854ED0E06C30D86B4ADBB7 /* Release */ = {
+		493D79491F9C4702429DE928244BE2DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E19858AE840D940EA73D15F8F0E1A3D /* JNHorizontalGroupAvatarCollectionView.xcconfig */;
+			baseConfigurationReference = 61222A7BABB40D491CCE934E16DE45E1 /* SDWebImage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1129,19 +1127,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JNHorizontalGroupAvatarCollectionView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView.modulemap";
-				PRODUCT_MODULE_NAME = JNHorizontalGroupAvatarCollectionView;
-				PRODUCT_NAME = JNHorizontalGroupAvatarCollectionView;
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1149,7 +1146,103 @@
 			};
 			name = Release;
 		};
-		99084E1004BC1992705FB187E8CE9BD5 /* Release */ = {
+		59597C405B520862353707E336A84F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3822022EAA9C1F019F4B194EA6F023 /* JNGroupAvatarImageView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JNGroupAvatarImageView/JNGroupAvatarImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JNGroupAvatarImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JNGroupAvatarImageView/JNGroupAvatarImageView.modulemap";
+				PRODUCT_MODULE_NAME = JNGroupAvatarImageView;
+				PRODUCT_NAME = JNGroupAvatarImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D78920C5D5458E0716BEB22C5DEF85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61222A7BABB40D491CCE934E16DE45E1 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				PRODUCT_MODULE_NAME = SDWebImage;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74E07879339D73FF19B441BC938046ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3822022EAA9C1F019F4B194EA6F023 /* JNGroupAvatarImageView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JNGroupAvatarImageView/JNGroupAvatarImageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JNGroupAvatarImageView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JNGroupAvatarImageView/JNGroupAvatarImageView.modulemap";
+				PRODUCT_MODULE_NAME = JNGroupAvatarImageView;
+				PRODUCT_NAME = JNGroupAvatarImageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8AAEA758B72362992F1DD93001881B66 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E182978EBE5D9DE2CF24638CBFAE81FD /* JNAvatarWithInitials.xcconfig */;
 			buildSettings = {
@@ -1174,7 +1267,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1182,9 +1275,9 @@
 			};
 			name = Release;
 		};
-		A0BD54BBEF86B3C4D8C69B4FA5D925C4 /* Release */ = {
+		95358F17A7BEC4FCBC34FB7CB75D0D0F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61222A7BABB40D491CCE934E16DE45E1 /* SDWebImage.xcconfig */;
+			baseConfigurationReference = 0E19858AE840D940EA73D15F8F0E1A3D /* JNHorizontalGroupAvatarCollectionView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1195,18 +1288,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JNHorizontalGroupAvatarCollectionView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
-				PRODUCT_MODULE_NAME = SDWebImage;
-				PRODUCT_NAME = SDWebImage;
+				MODULEMAP_FILE = "Target Support Files/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView.modulemap";
+				PRODUCT_MODULE_NAME = JNHorizontalGroupAvatarCollectionView;
+				PRODUCT_NAME = JNHorizontalGroupAvatarCollectionView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1249,37 +1343,6 @@
 			};
 			name = Release;
 		};
-		E2C957897233A5502C6AA4B3157407F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61222A7BABB40D491CCE934E16DE45E1 /* SDWebImage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
-				PRODUCT_MODULE_NAME = SDWebImage;
-				PRODUCT_NAME = SDWebImage;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EED3C60F21AEF0E24685BCECEF4128F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B509169C3E91991F80D0643E7150931 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig */;
@@ -1315,9 +1378,9 @@
 			};
 			name = Debug;
 		};
-		F012D8FFA7FB2F3155750A9BFA42B089 /* Debug */ = {
+		EF1ED5CB270BACD5462FE00C696822B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD3822022EAA9C1F019F4B194EA6F023 /* JNGroupAvatarImageView.xcconfig */;
+			baseConfigurationReference = E182978EBE5D9DE2CF24638CBFAE81FD /* JNAvatarWithInitials.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1328,84 +1391,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JNGroupAvatarImageView/JNGroupAvatarImageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JNGroupAvatarImageView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JNAvatarWithInitials/JNAvatarWithInitials-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JNAvatarWithInitials/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JNGroupAvatarImageView/JNGroupAvatarImageView.modulemap";
-				PRODUCT_MODULE_NAME = JNGroupAvatarImageView;
-				PRODUCT_NAME = JNGroupAvatarImageView;
+				MODULEMAP_FILE = "Target Support Files/JNAvatarWithInitials/JNAvatarWithInitials.modulemap";
+				PRODUCT_MODULE_NAME = JNAvatarWithInitials;
+				PRODUCT_NAME = JNAvatarWithInitials;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F478C94D14B43396C8A3F3B4E7CA8046 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD3822022EAA9C1F019F4B194EA6F023 /* JNGroupAvatarImageView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JNGroupAvatarImageView/JNGroupAvatarImageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JNGroupAvatarImageView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JNGroupAvatarImageView/JNGroupAvatarImageView.modulemap";
-				PRODUCT_MODULE_NAME = JNGroupAvatarImageView;
-				PRODUCT_NAME = JNGroupAvatarImageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FBDC5EC4D60CA97A35628505F9D60B9E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E19858AE840D940EA73D15F8F0E1A3D /* JNHorizontalGroupAvatarCollectionView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JNHorizontalGroupAvatarCollectionView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView.modulemap";
-				PRODUCT_MODULE_NAME = JNHorizontalGroupAvatarCollectionView;
-				PRODUCT_NAME = JNHorizontalGroupAvatarCollectionView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1476,8 +1474,8 @@
 		196D774A34B3FB3F7457652156ECF966 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C957897233A5502C6AA4B3157407F8 /* Debug */,
-				A0BD54BBEF86B3C4D8C69B4FA5D925C4 /* Release */,
+				5D78920C5D5458E0716BEB22C5DEF85D /* Debug */,
+				493D79491F9C4702429DE928244BE2DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1487,6 +1485,15 @@
 			buildConfigurations = (
 				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
 				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BBAA6B6B75392B5E36BA5A13A2A77C /* Build configuration list for PBXNativeTarget "JNGroupAvatarImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74E07879339D73FF19B441BC938046ED /* Debug */,
+				59597C405B520862353707E336A84F2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1503,17 +1510,8 @@
 		C8E6B5132180FE43E91A8C92F11E28EC /* Build configuration list for PBXNativeTarget "JNAvatarWithInitials" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				069D97630D769F73C5E5337DC7B34949 /* Debug */,
-				99084E1004BC1992705FB187E8CE9BD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5FA67C197DEC2757920B8272DD3B606 /* Build configuration list for PBXNativeTarget "JNGroupAvatarImageView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F012D8FFA7FB2F3155750A9BFA42B089 /* Debug */,
-				F478C94D14B43396C8A3F3B4E7CA8046 /* Release */,
+				EF1ED5CB270BACD5462FE00C696822B4 /* Debug */,
+				8AAEA758B72362992F1DD93001881B66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1521,8 +1519,8 @@
 		EE2075F1F66252480B153A51CE06519C /* Build configuration list for PBXNativeTarget "JNHorizontalGroupAvatarCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FBDC5EC4D60CA97A35628505F9D60B9E /* Debug */,
-				7C39917131854ED0E06C30D86B4ADBB7 /* Release */,
+				13E6F1A2E7FBC58DA5418FA8E0146AA5 /* Debug */,
+				95358F17A7BEC4FCBC34FB7CB75D0D0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
