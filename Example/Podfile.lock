@@ -1,13 +1,13 @@
 PODS:
-  - JNAvatarWithInitials (1.1.1):
-    - SDWebImage (~> 4.3.3)
-  - JNGroupAvatarImageView (1.2.1):
-    - JNAvatarWithInitials (~> 1.1.0)
-  - JNHorizontalGroupAvatarCollectionView (1.0.2):
-    - JNGroupAvatarImageView
-  - SDWebImage (4.3.3):
-    - SDWebImage/Core (= 4.3.3)
-  - SDWebImage/Core (4.3.3)
+  - JNAvatarWithInitials (1.1.2):
+    - SDWebImage (~> 4.4.2)
+  - JNGroupAvatarImageView (1.2.3):
+    - JNAvatarWithInitials (~> 1.1.2)
+  - JNHorizontalGroupAvatarCollectionView (1.0.3):
+    - JNGroupAvatarImageView (~> 1.2.3)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
 
 DEPENDENCIES:
   - JNHorizontalGroupAvatarCollectionView (from `../`)
@@ -23,10 +23,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JNAvatarWithInitials: c0c5f5049d868d4a66dc16e3e9217232977cc9cf
-  JNGroupAvatarImageView: 00330c921cecd63d38e772cf4cd7584651da23ca
-  JNHorizontalGroupAvatarCollectionView: f24d12c517522e2afc2e2cd74360eeaed7290760
-  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  JNAvatarWithInitials: 806ccb76bd4d3c43c7498b2346eab57a6045ea4e
+  JNGroupAvatarImageView: 0b69f44b4ed378dbd17bf80055abdcc921e64fd4
+  JNHorizontalGroupAvatarCollectionView: d0efec39ae81b984c9d01628f4c18a39f55b43f2
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
 
 PODFILE CHECKSUM: 3a4af99e4873fae71fccdaf30b1804a95aac3f8e
 

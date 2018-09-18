@@ -68,7 +68,7 @@ open class JNAvatarWithInitials: UIView {
     }
     
     /// Avatar content mode
-    open var avatarContentMode : UIViewContentMode = UIViewContentMode.scaleAspectFill {
+    open var avatarContentMode : UIView.ContentMode = UIView.ContentMode.scaleAspectFill {
         didSet {
             
             // Set image content mode
@@ -175,7 +175,7 @@ open class JNAvatarWithInitials: UIView {
             
             // Setup avatar image
             self.avatarImage.sd_setShowActivityIndicatorView(true)
-            self.avatarImage.sd_setIndicatorStyle(UIActivityIndicatorViewStyle.gray)
+            self.avatarImage.sd_setIndicatorStyle(UIActivityIndicatorView.Style.gray)
             self.avatarImage.sd_setImage(with: URL(string:imageUrl), placeholderImage: placeHolderImage, options: SDWebImageOptions.continueInBackground, completed: { (image, error,  cacheType, imageURL) in
                 
                 if error != nil {

@@ -35,9 +35,9 @@ class AvatarsCollectionViewFlowLayout: UICollectionViewFlowLayout {
         }
 
         // Set layout attributes
-        self.scrollDirection = UICollectionViewScrollDirection.horizontal
+        self.scrollDirection = UICollectionView.ScrollDirection.horizontal
         self.itemSize = CGSize(width: cellDimension, height: cellDimension)
         self.minimumLineSpacing = self.cellPadding
-        self.sectionInset = UIEdgeInsetsMake(0, sectionLeftRightPadding, 0, sectionLeftRightPadding)
+        self.sectionInset = UIEdgeInsets.init(top: 0, left: sectionLeftRightPadding, bottom: 0, right: sectionLeftRightPadding)
     }
 }
