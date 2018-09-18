@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'JNHorizontalGroupAvatarCollectionView'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Horizontal group avatar collection view.'
   s.description      = 'Horizontal group avatar collection view description.'
   s.homepage         = 'https://github.com/JNDisrupter'
@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files     = 'JNHorizontalGroupAvatarCollectionView/**/*.swift'
   s.resources        = 'JNHorizontalGroupAvatarCollectionView/**/*.{png,pdf,jpeg,jpg,storyboard,xib,xcassets,ttf}'
-  s.dependency 'JNGroupAvatarImageView'
+  s.dependency 'JNGroupAvatarImageView' ,'~> 1.2.3'
 end
