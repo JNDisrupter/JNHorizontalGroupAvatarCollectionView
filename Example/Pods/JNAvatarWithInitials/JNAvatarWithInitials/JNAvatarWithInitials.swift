@@ -174,8 +174,7 @@ open class JNAvatarWithInitials: UIView {
         if !imageUrl.isEmpty {
             
             // Setup avatar image
-            self.avatarImage.sd_setShowActivityIndicatorView(true)
-            self.avatarImage.sd_setIndicatorStyle(UIActivityIndicatorView.Style.gray)
+            self.avatarImage.sd_imageIndicator = SDWebImageActivityIndicator.gray
             self.avatarImage.sd_setImage(with: URL(string:imageUrl), placeholderImage: placeHolderImage, options: SDWebImageOptions.continueInBackground, completed: { (image, error,  cacheType, imageURL) in
                 
                 if error != nil {
@@ -304,5 +303,13 @@ open class JNAvatarWithInitials: UIView {
         
         // Show initials Label
         self.initialsLabel.isHidden = false
+    }
+    
+    /**
+     Get image view
+     - Returns: avatar image view
+     */
+    open func getImageView() -> UIImageView {
+        return self.avatarImage
     }
 }

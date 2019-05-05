@@ -188,13 +188,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 57M378XZD9;
-						LastSwiftMigration = 1000;
+						DevelopmentTeam = 9SJR5T495P;
+						LastSwiftMigration = 1020;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -208,6 +208,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -267,7 +268,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JNAvatarWithInitials/JNAvatarWithInitials.framework",
 				"${BUILT_PRODUCTS_DIR}/JNGroupAvatarImageView/JNGroupAvatarImageView.framework",
 				"${BUILT_PRODUCTS_DIR}/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView.framework",
@@ -282,7 +283,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -341,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -396,6 +398,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -445,13 +448,13 @@
 			baseConfigurationReference = 83B4449AFF358D96768506A0 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57M378XZD9;
+				DEVELOPMENT_TEAM = 9SJR5T495P;
 				INFOPLIST_FILE = JNHorizontalGroupAvatarCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -460,13 +463,13 @@
 			baseConfigurationReference = A213FD985EE96B333871F9A4 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 57M378XZD9;
+				DEVELOPMENT_TEAM = 9SJR5T495P;
 				INFOPLIST_FILE = JNHorizontalGroupAvatarCollectionView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

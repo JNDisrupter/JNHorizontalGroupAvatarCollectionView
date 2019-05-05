@@ -81,6 +81,14 @@ func setup(image : UIImage? , placeHolderImage : UIImage , fullName : String , s
  * fullName : The full name to use for initials.
  * showInitails : Flag to indicate if should show initials or not.
  
+ 5. Getter methods:
+ 
+ > Get Image View
+ 
+ ```swift
+ func getImageView() -> UIImageView
+ ```
+ 
 ## Authors
 
 Jayel Zaghmoutt & Mohammad Nabulsi
