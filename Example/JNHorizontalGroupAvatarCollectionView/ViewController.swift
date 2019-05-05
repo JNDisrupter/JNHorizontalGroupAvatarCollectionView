@@ -138,7 +138,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         let user = self.dataSource[indexPath.row]
 
         // Update selected users
-        if let userIndex = self.selectedUsers.index(where: {$0.getGroupName() == user.getGroupName()}) {
+        if let userIndex = self.selectedUsers.firstIndex(where: {$0.getGroupName() == user.getGroupName()}) {
             self.selectedUsers.remove(at: userIndex)
         } else {
             self.selectedUsers.append(user)
