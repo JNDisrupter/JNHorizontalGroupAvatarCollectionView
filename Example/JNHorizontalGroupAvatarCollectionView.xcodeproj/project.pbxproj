@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13B337ECB1CBE4DF5D962215 /* Pods_JNHorizontalGroupAvatarCollectionView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBCA8D08664134488C2FD75 /* Pods_JNHorizontalGroupAvatarCollectionView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		86C84A9F2F4362AD00C414F7 /* JNHorizontalGroupAvatarCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = 86C84A9E2F4362AD00C414F7 /* JNHorizontalGroupAvatarCollectionView */; };
 		C23007532042C9DD00E602C0 /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23007522042C9DD00E602C0 /* SelectionTableViewCell.swift */; };
 		C23007552042CDC900E602C0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23007542042CDC900E602C0 /* User.swift */; };
 		C25E45A12044598C001E077C /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25E45A02044598C001E077C /* Group.swift */; };
@@ -29,9 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1ACEFD17A61600D482B0D94D /* JNHorizontalGroupAvatarCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JNHorizontalGroupAvatarCollectionView.podspec; path = ../JNHorizontalGroupAvatarCollectionView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3AE431F2F53E0BF007A410A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3FBCA8D08664134488C2FD75 /* Pods_JNHorizontalGroupAvatarCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JNHorizontalGroupAvatarCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* JNHorizontalGroupAvatarCollectionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNHorizontalGroupAvatarCollectionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +37,6 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* JNHorizontalGroupAvatarCollectionView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNHorizontalGroupAvatarCollectionView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		638CF2A2465D2C3EBB04E7A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		83B4449AFF358D96768506A0 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8819A6AFDD36917C51C05346 /* Pods_JNHorizontalGroupAvatarCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JNHorizontalGroupAvatarCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A213FD985EE96B333871F9A4 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C23007522042C9DD00E602C0 /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
 		C23007542042CDC900E602C0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C25E45A02044598C001E077C /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
@@ -54,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B337ECB1CBE4DF5D962215 /* Pods_JNHorizontalGroupAvatarCollectionView_Example.framework in Frameworks */,
+				86C84A9F2F4362AD00C414F7 /* JNHorizontalGroupAvatarCollectionView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,32 +61,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		299B36AAA6C6D041C494D9D3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				83B4449AFF358D96768506A0 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig */,
-				A213FD985EE96B333871F9A4 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		590A38DC9C1FCC4DF99D8040 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3FBCA8D08664134488C2FD75 /* Pods_JNHorizontalGroupAvatarCollectionView_Example.framework */,
-				8819A6AFDD36917C51C05346 /* Pods_JNHorizontalGroupAvatarCollectionView_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for JNHorizontalGroupAvatarCollectionView */,
 				607FACD11AFB9204008FA782 /* Products */,
-				299B36AAA6C6D041C494D9D3 /* Pods */,
-				590A38DC9C1FCC4DF99D8040 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,16 +103,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				1ACEFD17A61600D482B0D94D /* JNHorizontalGroupAvatarCollectionView.podspec */,
-				3AE431F2F53E0BF007A410A0 /* README.md */,
-				638CF2A2465D2C3EBB04E7A8 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,11 +110,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JNHorizontalGroupAvatarCollectionView_Example" */;
 			buildPhases = (
-				CDABC44095A531DAF967A0EC /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				E11A334052CA537E94FE09FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,6 +173,9 @@
 				Base,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
+			packageReferences = (
+				86C84A9D2F4362AD00C414F7 /* XCLocalSwiftPackageReference "../../JNHorizontalGroupAvatarCollectionView" */,
+			);
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -242,51 +205,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		CDABC44095A531DAF967A0EC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JNHorizontalGroupAvatarCollectionView_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E11A334052CA537E94FE09FF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JNAvatarWithInitials/JNAvatarWithInitials.framework",
-				"${BUILT_PRODUCTS_DIR}/JNGroupAvatarImageView/JNGroupAvatarImageView.framework",
-				"${BUILT_PRODUCTS_DIR}/JNHorizontalGroupAvatarCollectionView/JNHorizontalGroupAvatarCollectionView.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JNAvatarWithInitials.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JNGroupAvatarImageView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JNHorizontalGroupAvatarCollectionView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JNHorizontalGroupAvatarCollectionView_Example/Pods-JNHorizontalGroupAvatarCollectionView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		607FACCC1AFB9204008FA782 /* Sources */ = {
@@ -386,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -435,22 +353,26 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83B4449AFF358D96768506A0 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9SJR5T495P;
 				INFOPLIST_FILE = JNHorizontalGroupAvatarCollectionView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,12 +382,15 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A213FD985EE96B333871F9A4 /* Pods-JNHorizontalGroupAvatarCollectionView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9SJR5T495P;
 				INFOPLIST_FILE = JNHorizontalGroupAvatarCollectionView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,7 +410,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -501,7 +430,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -540,6 +473,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		86C84A9D2F4362AD00C414F7 /* XCLocalSwiftPackageReference "../../JNHorizontalGroupAvatarCollectionView" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../JNHorizontalGroupAvatarCollectionView;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86C84A9E2F4362AD00C414F7 /* JNHorizontalGroupAvatarCollectionView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = JNHorizontalGroupAvatarCollectionView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
 }

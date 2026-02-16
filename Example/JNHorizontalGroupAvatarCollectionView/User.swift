@@ -8,6 +8,7 @@
 
 import Foundation
 import JNGroupAvatarImageView
+import UIKit
 
 // User
 class User: JNGroupAvatar {

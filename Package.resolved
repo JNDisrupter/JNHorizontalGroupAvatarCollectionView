@@ -1,0 +1,33 @@
+{
+  "originHash" : "c4192eb0191f5e7be302b162b2a5f3d0f91def41ae5dfc1c360166e1bc2e535c",
+  "pins" : [
+    {
+      "identity" : "jnavatarwithinitials",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JNDisrupter/JNAvatarWithInitials.git",
+      "state" : {
+        "branch" : "update-to-SPM",
+        "revision" : "bf8650042968e6cb24e82f839ab3862982a95c4a"
+      }
+    },
+    {
+      "identity" : "jngroupavatarimageview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JNDisrupter/JNGroupAvatarImageView.git",
+      "state" : {
+        "branch" : "update-to-SPM",
+        "revision" : "7243f888e8e5bca5ef0a36e86ab5ab1b8795aeb7"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "449e8f8f10377f620db8ad22ea81208eecf6325f",
+        "version" : "5.21.6"
+      }
+    }
+  ],
+  "version" : 3
+}

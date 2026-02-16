@@ -20,36 +20,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- iOS 9.0+ / macOS 10.10+
-- Xcode 9.0+
-- Swift 4+
+- iOS 12.0+ / macOS 14.4+
+- Xcode 15.3+
+- Swift 5.10+
 
 ## Installation
 
-### CocoaPods
-
-[CocoaPods](http://cocoapods.org) is a dependency manager for Cocoa projects. You can install it with the following command:
-
-```bash
-$ gem install cocoapods
-```
-
-To integrate JNHorizontalGroupAvatarCollectionView into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-
-use_frameworks!
-
-target '<Your Target Name>' do
-pod 'JNHorizontalGroupAvatarCollectionView'
-end
-```
-
-Then, run the following command:
-
-```bash
-$ pod install
-```
+JNHorizontalGroupAvatarCollectionView support SwiftPM. To use SwiftPM, you should use Xcode 11 to open your project. Click `File` -> `Swift Packages` -> `Add Package Dependency`, enter [JNHorizontalGroupAvatarCollectionView repo's URL](https://github.com/JNDisrupter/JNHorizontalGroupAvatarCollectionView.git)
 
 ## Usage
 
