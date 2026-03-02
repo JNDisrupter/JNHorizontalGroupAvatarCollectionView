@@ -1,6 +1,0 @@
-framework module JNAvatarWithInitials {
-  umbrella header "JNAvatarWithInitials-umbrella.h"
-
-  export *
-  module * { export * }
-}
