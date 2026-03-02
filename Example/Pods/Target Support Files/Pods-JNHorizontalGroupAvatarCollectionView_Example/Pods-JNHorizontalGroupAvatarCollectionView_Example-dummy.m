@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_JNHorizontalGroupAvatarCollectionView_Example : NSObject
-@end
-@implementation PodsDummy_Pods_JNHorizontalGroupAvatarCollectionView_Example
-@end
